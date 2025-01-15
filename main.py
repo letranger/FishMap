@@ -15,7 +15,7 @@ if "reload_flag" not in st.session_state:
 st.title("FishMap")
 
 # 上傳 CSV 功能
-st.sidebar.header("上傳地點資料 (CSV，無標題)")
+st.sidebar.header("上傳地點資料 (CSV格式)")
 uploaded_file = st.sidebar.file_uploader("選擇 CSV 文件", type="csv")
 if uploaded_file is not None:
     try:
