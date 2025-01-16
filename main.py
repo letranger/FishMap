@@ -53,4 +53,4 @@ for loc in st.session_state.locations:
         tooltip=loc["地點"]
     ).add_to(m)
 
-st_folium(m, width=1024, height=600)
+st_folium(m, width=1080, height=1920)
